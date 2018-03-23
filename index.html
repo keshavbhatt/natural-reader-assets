@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <title>Natural Reader Features</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="3D Gallery with CSS3 and jQuery" />
+        <meta name="keywords" content="Ubuntu, Social Media Kit, Consists,3d, gallery, jquery, css3, auto, slideshow, navigate, mouse scroll, perspective" />
+        <meta name="author" content="bull" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
+		<script type="text/javascript">
+window.ondragstart = function() { return false; } 
+
+		</script>
+    </head>
+    <body window.ondragstart = function() { return false; }>
+        <div class="container">
+		
+			<header>
+				<h1> K Natural<span> Reader</span></h1>
+			</header>
+			<section id="dg-container" class="dg-container">
+				<div class="dg-wrapper">
+					<a href="#"><img src="images/1.jpg" alt="image01"><div></div></a>
+					<a href="#"><img src="images/2.jpg" alt="image02"><div></div></a>
+					<a href="#"><img src="images/3.jpg" alt="image03"><div></div></a>
+					<a href="#"><img src="images/4.jpg" alt="image04"><div></div></a>
+					<a href="#"><img src="images/5.jpg" alt="image05"><div></div></a>
+					<a href="#"><img src="images/6.jpg" alt="image06"><div></div></a>
+					<a href="#"><img src="images/browser.png" alt="image07"><div></div></a>			
+				</div>
+				<nav>	
+					<span style="display:none" class="dg-prev">&lt;</span>
+					<span style="display:none" class="dg-next">&gt;</span>
+				</nav>
+			</section>
+        </div>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.gallery.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('#dg-container').gallery();
+			});
+		</script/>
+    </body>
+</html>
